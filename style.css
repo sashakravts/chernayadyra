@@ -202,12 +202,81 @@ z-index: 99;
     position: absolute;
     width: 1064px;
     height: 886px;
-    top: 68px;
-    left: 200px;
-   
+    top: 15px;
+    left: 200px; 
 
 }
+.hearingtype2
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 800px;
+    left: 200px; 
+
+}
+.hearingtype3
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 1585px;
+    left: 200px; 
+}
+.hearingtype4
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 2420px;
+    left: 165px; 
+}
+.containerinstallation
+{
+    align-content: center;
+    margin: 0 auto;
+    width:100%;
+}
+
+.installation1
+{
+ position: absolute;
+ top: 30px;
+ left: 165px; 
+ align-content: center;
 
 
 
+}
+.dust
+{
+size: auto;
+position: absolute;
+width: 100%;
+left: 0;
+opacity: 0.5;
+z-index: 100;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.installation2
+{
+    position: absolute;
+    padding-top: 400px;
+    left: 165px; 
+    margin-top: inherit;
+
+}
+.installation3
+{
+position: absolute;
+top: 1570px;
+left: 165px;
+}
+.installation4
+{
+position: absolute;
+top: 1570px;
+left: 865px;
+max-width: 50%;
+}
 
