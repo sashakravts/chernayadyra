@@ -231,20 +231,12 @@ z-index: 99;
     top: 2420px;
     left: 165px; 
 }
-.containerinstallation
+.containerdust
 {
     align-content: center;
     margin: 0 auto;
-    width:100%;
+    width:90%;
 }
-
-.installation1
-{
- position: absolute;
- top: 30px;
- left: 165px; 
- align-content: center;
-
 
 
 }
@@ -258,6 +250,7 @@ opacity: 0.5;
 z-index: 100;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
 .installation2
 {
     position: absolute;
