@@ -28,8 +28,8 @@ top: 0px;
 position: absolute;
 width: 282px;
 height: 266px;
-left: 700px;
-top: 100px;
+left: 735px;
+top: 140px;
 mix-blend-mode: lighten;
 z-index: 100;
 }
@@ -39,7 +39,7 @@ position: absolute;
 width: 45px;
 height:45px;
 left: 800px;
-top: 4  25px;
+top: 475px;
 mix-blend-mode: lighten;
 transform: rotate(29.96deg);
 }
@@ -49,6 +49,12 @@ position: absolute;
 left: 880px;
 top: 10px;
 mix-blend-mode: lighten;
+}
+.otherworkslink
+{
+    position: absolute;
+    left: 880px ;
+    opacity: 0;
 }
 .idtag
 {
@@ -60,6 +66,19 @@ top: 800px;
 mix-blend-mode: lighten;
 transform: rotate(9.57deg);
 }
+.idtaglink
+{
+position: absolute;
+width: 507.59px;
+height: 549.91px;
+left:825px;
+top: 800px;   
+opacity: 0;
+transform: rotate(9.57deg);
+z-index: 100;
+}
+
+
 .portraits1
 {
     justify-content: left;
@@ -235,11 +254,39 @@ z-index: 99;
 {
     align-content: center;
     margin: 0 auto;
-    width:90%;
+    width:100%;
 }
+.containerinstallation
+{
+  
+    margin: auto;
+    flex-direction: column;
+    
+    
+
+}
+
+.installation1
+{
+
+margin-top: 160px;
+padding-left: 165px;
+margin-bottom: 60px;
+align-content: center;
+display: inline-flex;
 
 
 }
+.installation2
+{
+
+padding-left: 165px;
+padding-top: 30px;
+display: inline-flex;
+
+
+}
+
 .dust
 {
 size: auto;
@@ -248,28 +295,74 @@ width: 100%;
 left: 0;
 opacity: 0.5;
 z-index: 100;
+top: 0px;
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-
-.installation2
+.otherworksp1
 {
+    margin-top: auto;
+    z-index: 103;
+
+}
+.installationp1
+{
+color: white;
+position: absolute;
+left: 50px;
+top: 0;
+z-index: 80;
+}
+.text {
+	font-size: 8pt;
+	position: relative;
+    color: transparent;
     position: absolute;
-    padding-top: 400px;
-    left: 165px; 
-    margin-top: inherit;
+    z-index: 101;
+    position: absolute;
+width: 230px;
+height: 48px;
+left: 1095px;
+top: 205px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
 
 }
-.installation3
-{
-position: absolute;
-top: 1570px;
-left: 165px;
+
+.text::before,
+.text::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	transition: 0.2s;
 }
-.installation4
-{
-position: absolute;
-top: 1570px;
-left: 865px;
-max-width: 50%;
+
+.text::before {
+/* 	background-color: darkgreen; */
+	clip-path: polygon(0 0, 60% 0, 30% 100%, 0 100%);
+}
+
+.text::after {
+	/*background-color: darkblue;*/
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+.text:hover::before {
+	left: -0.15em;
+	transform: rotate(-5deg);
+	top: -0.05em;
+}
+
+.text:hover::after {
+	left: 0.15em;
+	transform: rotate(5deg);
+	top: 0.05em;
 }
 
