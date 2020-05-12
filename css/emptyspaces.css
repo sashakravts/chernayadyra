@@ -1,0 +1,23 @@
+body
+{
+background:url(https://texturefabrik.files.wordpress.com/2018/02/texturefabrik_dust-06.jpg);
+mix-blend-mode: lighten;
+background-color: black;
+}
+.emptyspaces1
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 200px;
+    left: 200px; 
+}
+.emptyspaces2
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 1500px;
+    left: 200px; 
+}
+

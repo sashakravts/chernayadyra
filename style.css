@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(/Users/sashakravts/Desktop/website/chernayadyra/HelveticaNeue.ttc);
+  }
 * {
 margin: 0
 }
@@ -365,4 +369,141 @@ text-align: center;
 	transform: rotate(5deg);
 	top: 0.05em;
 }
+
+ 
+.random {
+    padding:0.5em;
+    margin-bottom:0.25em;
+ }
+.hearingtypep1
+{
+    font-size: 17pt;
+    transform: rotate(55deg);
+    mix-blend-mode: difference;
+    left: 982px;
+    top: 770px;
+    width: 238px;
+height: 197px;
+position: absolute;
+    color: white;
+    z-index: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0.5;
+}
+.hearingtypep1:hover
+{
+    transform: rotate(0deg);
+}
+.hearingtypep2
+{
+    font-size: 17pt;
+    transform: rotate(-30deg);
+    mix-blend-mode: difference;
+    left: 100px;
+    top: 200px;
+    width: 238px;
+height: 197px;
+position: absolute;
+    color: white;
+    z-index: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;   
+}
+.hearingtypep2:hover
+{
+    transform: rotate(0deg);  
+}
+.hearingtypep3
+{
+    font-size: 17pt;
+    transform: rotate(25deg);
+    mix-blend-mode: difference;
+    left: 530px;
+    top: 350px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;  
+}
+.hearingtypep3:hover
+{
+    transform: rotate(0deg);
+}
+.hearingtypep4
+{
+    font-size: 17pt;
+    transform: rotate(-45deg);
+    mix-blend-mode: difference;
+    left: 100px;
+    top: 1100px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;  
+}
+.hearingtypep4:hover
+{
+    transform: rotate(0deg);   
+}
+.hearingtypep5
+{
+    font-size: 17pt;
+    transform: rotate(70deg);
+    mix-blend-mode: difference;
+    left: 850px;
+    top: 1780px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;     
+}
+.hearingtypep5:hover
+{
+    transform: rotate(0deg);
+    left:1000px; 
+}
+.hearingtypep6
+{
+    font-size: 17pt;
+    transform: rotate(-225deg);
+    mix-blend-mode: difference;
+    left: 150px;
+    top: 1920px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;    
+}
+.hearingtypep6:hover
+{
+    transform: rotate(0deg);   
+}
+.hearingtypep7
+{
+    font-size: 17pt;
+    transform: rotate(-155deg);
+    mix-blend-mode: difference;
+    left: 900px;
+    top: 2200px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;  
+}
+.hearingtypep7:hover
+{
+    transform: rotate(0deg);  
+}
+
+
 

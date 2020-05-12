@@ -1,0 +1,509 @@
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
+    src: url(/Users/sashakravts/Desktop/website/chernayadyra/HelveticaNeue.ttc);
+  }
+* {
+margin: 0
+}
+
+body
+{
+
+background-size: auto;
+background-color: black;
+
+}
+.container
+{
+width: auto;
+height: auto;
+margin-bottom: 0pt;
+}
+.leftsideimage
+{
+position: absolute;
+width: 783px;
+height: 700px;
+left: 0px;
+top: 0px;
+}
+.typography
+{
+position: absolute;
+width: 282px;
+height: 266px;
+left: 735px;
+top: 140px;
+mix-blend-mode: lighten;
+z-index: 100;
+}
+.photography
+{
+position: absolute;
+width: 45px;
+height:45px;
+left: 800px;
+top: 475px;
+mix-blend-mode: lighten;
+transform: rotate(29.96deg);
+}
+.otherworks
+{
+position: absolute;
+left: 880px;
+top: 10px;
+mix-blend-mode: lighten;
+}
+.otherworkslink
+{
+    position: absolute;
+    left: 880px ;
+    opacity: 0;
+}
+.idtag
+{
+position: absolute;
+width: 507.59px;
+height: 549.91px;
+left:825px;
+top: 800px;   
+mix-blend-mode: lighten;
+transform: rotate(9.57deg);
+}
+.idtaglink
+{
+position: absolute;
+width: 507.59px;
+height: 549.91px;
+left:825px;
+top: 800px;   
+opacity: 0;
+transform: rotate(9.57deg);
+z-index: 100;
+}
+
+
+.portraits1
+{
+    justify-content: left;
+    width: 1064px;
+    height: 886px;
+    top: 68px;
+}
+.portraits2
+{
+position: absolute;
+width: 1052px;
+height: 777px;
+left: 110px;
+top: 600px;
+}
+.portraits3
+{
+    position: absolute;
+    width: 1180px;
+    height: 1027px;
+    top: 1300px;
+    justify-content: left;
+    
+}
+.container2
+{
+    justify-content: left;
+}
+.portraitstextp1
+{
+position: absolute;
+width: 238px;
+height: 197px;
+left: 1100px;
+top: 269px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #E5E5E5;
+}
+.portraitstexth1
+{
+
+position: absolute;
+width: 230px;
+height: 48px;
+left: 1095px;
+top: 221px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: black;
+/*border white with light shadow*/
+text-shadow: 
+
+   2px   0  0   #E5E5E5, 
+  -2px   0  0   #E5E5E5, 
+   0    2px 0   #E5E5E5, 
+   0   -2px 0   #E5E5E5, 
+   1px  1px 0   #E5E5E5, 
+  -1px -1px 0   #E5E5E5, 
+   1px -1px 0   #E5E5E5, 
+  -1px  1px 0   #E5E5E5,
+   1px  1px 5px #E5E5E5;
+}
+.toplayerwrap
+{
+size: auto;
+position: absolute;
+width: 1190px;
+top: -22px;
+left: 200px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+opacity: 0.5;
+z-index: 100;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+.portraitstextp2
+{
+position: absolute;
+width: 238px;
+height: 197px;
+left: 1100px;
+top: 1600px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #E5E5E5;
+}
+.nextbutton
+{
+position: absolute;
+width: 25px;
+height: 25px;
+left: 1300px;
+top: 2000px;
+mix-blend-mode: lighten;
+z-index: 101;
+
+}
+
+.wrapbottom
+{
+position: absolute;
+top: 10px;
+left: 1px;
+z-index: 99;  
+transform: rotate(55deg);
+right: 5000;
+}
+.wrapbottom2
+{
+position: absolute;
+top: 500px;
+z-index: 99;
+
+}
+.receipt
+{
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    transform: rotate(55deg);
+   
+
+
+}
+.hearingtype1
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 15px;
+    left: 200px; 
+
+}
+.hearingtype2
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 800px;
+    left: 200px; 
+
+}
+.hearingtype3
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 1585px;
+    left: 200px; 
+}
+.hearingtype4
+{
+    position: absolute;
+    width: 1064px;
+    height: 886px;
+    top: 2420px;
+    left: 165px; 
+}
+.containerdust
+{
+    align-content: center;
+    margin: 0 auto;
+    width:100%;
+}
+.containerinstallation
+{
+  
+    margin: auto;
+    flex-direction: column;
+    
+    
+
+}
+
+.installation1
+{
+
+margin-top: 160px;
+padding-left: 165px;
+margin-bottom: 60px;
+align-content: center;
+display: inline-flex;
+
+
+}
+.installation2
+{
+
+padding-left: 165px;
+padding-top: 30px;
+display: inline-flex;
+
+
+}
+
+.dust
+{
+size: auto;
+position: absolute;
+width: 100%;
+left: 0;
+opacity: 0.5;
+z-index: 100;
+top: 0px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.otherworksp1
+{
+    margin-top: auto;
+    z-index: 103;
+
+}
+.installationp1
+{
+color: white;
+position: absolute;
+left: 50px;
+top: 0;
+z-index: 80;
+}
+.text {
+	font-size: 8pt;
+	position: relative;
+    color: transparent;
+    position: absolute;
+    z-index: 101;
+    position: absolute;
+width: 230px;
+height: 48px;
+left: 1095px;
+top: 205px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+
+}
+
+.text::before,
+.text::after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	transition: 0.2s;
+}
+
+.text::before {
+/* 	background-color: darkgreen; */
+	clip-path: polygon(0 0, 60% 0, 30% 100%, 0 100%);
+}
+
+.text::after {
+	/*background-color: darkblue;*/
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+.text:hover::before {
+	left: -0.15em;
+	transform: rotate(-5deg);
+	top: -0.05em;
+}
+
+.text:hover::after {
+	left: 0.15em;
+	transform: rotate(5deg);
+	top: 0.05em;
+}
+
+ 
+.random {
+    padding:0.5em;
+    margin-bottom:0.25em;
+ }
+.hearingtypep1
+{
+    font-size: 17pt;
+    transform: rotate(55deg);
+    mix-blend-mode: difference;
+    left: 982px;
+    top: 770px;
+    width: 238px;
+height: 197px;
+position: absolute;
+    color: white;
+    z-index: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 0.5;
+}
+.hearingtypep1:hover
+{
+    transform: rotate(0deg);
+}
+.hearingtypep2
+{
+    font-size: 17pt;
+    transform: rotate(-30deg);
+    mix-blend-mode: difference;
+    left: 100px;
+    top: 200px;
+    width: 238px;
+height: 197px;
+position: absolute;
+    color: white;
+    z-index: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;   
+}
+.hearingtypep2:hover
+{
+    transform: rotate(0deg);  
+}
+.hearingtypep3
+{
+    font-size: 17pt;
+    transform: rotate(25deg);
+    mix-blend-mode: difference;
+    left: 530px;
+    top: 350px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;  
+}
+.hearingtypep3:hover
+{
+    transform: rotate(0deg);
+}
+.hearingtypep4
+{
+    font-size: 17pt;
+    transform: rotate(-45deg);
+    mix-blend-mode: difference;
+    left: 100px;
+    top: 1100px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;  
+}
+.hearingtypep4:hover
+{
+    transform: rotate(0deg);   
+}
+.hearingtypep5
+{
+    font-size: 17pt;
+    transform: rotate(70deg);
+    mix-blend-mode: difference;
+    left: 850px;
+    top: 1780px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;     
+}
+.hearingtypep5:hover
+{
+    transform: rotate(0deg);
+    left:1000px; 
+}
+.hearingtypep6
+{
+    font-size: 17pt;
+    transform: rotate(-225deg);
+    mix-blend-mode: difference;
+    left: 150px;
+    top: 1920px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;    
+}
+.hearingtypep6:hover
+{
+    transform: rotate(0deg);   
+}
+.hearingtypep7
+{
+    font-size: 17pt;
+    transform: rotate(-155deg);
+    mix-blend-mode: difference;
+    left: 900px;
+    top: 2200px;
+    width: 238px;
+    height: 197px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;  
+}
+.hearingtypep7:hover
+{
+    transform: rotate(0deg);  
+}
+
+
+

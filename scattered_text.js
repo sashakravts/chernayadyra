@@ -1,27 +1,32 @@
-$(document).ready(function(){
-    animateDiv('.a');
-    animateDiv('.b');
-    animateDiv('.c');
-    animateDiv('.d');
-});
-
-function makeNewPosition(){
-    
-    // Get viewport dimensions (remove the dimension of the div)
-    var h = $(window).height() - 50;
-    var w = $(window).width() - 50;
-    
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
-    
-    return [nh,nw];    
-    
-}
-
-function animateDiv(myclass){
-    var newq = makeNewPosition();
-    $(myclass).animate({ top: newq[0], left: newq[1] }, 1000,   function(){
-      animateDiv(myclass);        
-    });
-    
-};
+(function() {
+    'use strict';
+ 
+    var w=document.body.offsetWidth,
+    h=document.body.offsetHeight,
+    rd=document.getElementsByTagName('div'),
+    mw=800,mh=400,c;
+ 
+ if((w>mw)&&(h>mh)) {
+ for(c=0;c<rd.length;c++) {
+ if(rd[c].className=='random') {
+    rd[c].style.position='absolute';
+    var xCoord=Math.floor(Math.random()*w);
+    var yCoord=Math.floor(Math.random()*h);
+ if(xCoord>=w-rd[c].offsetWidth-10){
+    xCoord=w-rd[c].offsetWidth-10;
+  }
+ if(xCoord<=10){
+    xCoord=10;
+  }
+ if(yCoord>=h-rd[c].offsetHeight-10){
+    yCoord=h-rd[c].offsetHeight-10;
+  }
+ if(yCoord<=10){
+    yCoord=10;
+  }
+    rd[c].style.left=xCoord+'px';
+    rd[c].style.top=yCoord+'px';  
+    } 
+   }
+  }
+ })();
