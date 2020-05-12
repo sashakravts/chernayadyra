@@ -113,18 +113,21 @@ top: 600px;
 }
 .portraitstextp1
 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14pt;
 position: absolute;
 width: 238px;
 height: 197px;
 left: 1100px;
 top: 269px;
-
-font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px;
+
+
+line-height: 15pt;
 color: #E5E5E5;
+
+
+font-weight: lighter;  
 }
 .portraitstexth1
 {
@@ -745,6 +748,34 @@ font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 0.5;    
 }
+.tbcarrownext
+{
+    position: absolute;
+    top:2200px;
+    left:1250px;
+    z-index: 200;
+}
+.tbcarrowback
+{
+    position: absolute;
+    top:2200px;
+    left:150px;
+    z-index: 200;
+}
+.poparrownext
+{
+    position: absolute;
+    top:2200px;
+    left:1250px;
+    z-index: 200;
+}  
+.poparrowback
+{
+    position: absolute;
+    top:2200px;
+    left:150px;
+    z-index: 200;
+}  
 
 
 
