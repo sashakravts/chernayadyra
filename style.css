@@ -790,6 +790,13 @@ font-size: 14pt;
     left:170px;
     z-index: 200;
 }  
+.idtagarrowback
+{
+    position: absolute;
+    top:50px;
+    left:50px;
+    z-index: 200;  
+}
 
 
 
