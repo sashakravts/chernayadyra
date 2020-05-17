@@ -802,7 +802,152 @@ font-size: 14pt;
 {
     opacity: 0;
 }
+.leftsideimagemobile
+{
+    opacity: 0;
+}
+.otherworksmobile
+{
+  opacity: 0;  
+  transform: rotate(180deg);
+}
+.wrapbottommobile
+{
+    opacity: 0;
+}
+.wrapbottom2mobile
+{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    
+}
+.wrapbottom3mobile
+{
+    opacity: 0;
+}
+.idtagmobile
+{
+    opacity: 0;
+}
+.idtaglinkmobile
+{
+    opacity: 0;
+}
+
 @media only screen and (max-width: 1000px){
+    .container
+    {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+    }
+    .idtaglink
+    {
+        top: 2000px;
+        left: 0;
+        opacity: 0;
+    }
+
+    .photographymobile
+    {
+        position: absolute;
+        top: 1750px;
+        transform: rotate(15deg);
+        left: 100px;
+    }
+    .photography
+    {
+        display: none;
+    }
+    .typography
+    {
+        display: none;
+    }
+    .typographymobile
+    {
+        position: absolute;
+        top: 1050px;
+        left: 150px;
+        z-index: 100;
+        mix-blend-mode: lighten;
+    }
+    .idtag
+    {
+        display: none;
+    }
+    .idtagmobile
+    {
+        position: absolute;
+        top:1200px ;
+        transform: rotate(20deg);
+        opacity: 1;
+    }
+    .idtaglinkmobile
+    {
+        position: absolute;
+        top:1200px ;
+        transform: rotate(20deg);   
+    }
+    .wrapbottom2
+    {
+        display: none;
+    }
+    .wrapbottom2mobile
+    {
+    opacity: 1;
+    position: absolute;
+    transform: rotate(110deg);
+    top: 600px;
+    left: -160px;
+    }
+    .wrapbottom3mobile
+    {
+       
+        opacity: 1;
+        position: absolute;
+        transform: rotate(110deg);
+        top: 1330px;
+        left: -160px;   
+    }
+    .wrapbottommobile
+    {
+        opacity: 1;
+        position: absolute;
+        transform: rotate(70deg);
+        left: -160px;
+        mix-blend-mode: lighten;
+        top: 70px;
+
+    }
+    .wrapbottom
+    {
+        display: none;
+    }
+    .otherworks
+    {
+        display: none;
+    }
+    .otherworksmobile
+    {
+        position: absolute;
+        top: 450px;
+        opacity: 1;
+        mix-blend-mode: lighten;
+        z-index: 1;
+    }
+    .leftsideimagemobile
+    {
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        left:-85px;
+
+    }
+    .leftsideimage
+    {
+        display: none;
+    }
     .me
     {
         display: none;
@@ -837,8 +982,38 @@ font-size: 14pt;
        left: 425px; 
 
     }
+    .indextext
+    {
+     position: absolute;
+     top: 30px;
+     left: 50px;   
+    }
+    .indextext2
+    {
+        left: 70px;
+        top: 250px;
+    }
+    .indextext3
+    {
+        top: 900px;
+        left: -40px;
+    }
+    .indextext5
+    {
+        top: 1500px;
+        left: 30px;
+    }
+    .indextext4
+    {
+       top: 1900px; 
+       left: 40px;
+    }
+    .indextext6
+    {
+        left: 70px;
+        top: 2100px;
+        transform: rotate(-15deg);
+    }
+   
 }
-
-
-
 
